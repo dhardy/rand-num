@@ -4,4 +4,5 @@ version = "0.1.0"
 authors = ["Diggory Hardy <git@dhardy.name>"]
 
 [dependencies]
-rand = { path = "../rand" }
+rand = { path = "../rand", features=["log"] }
+env_logger = "0.5"
