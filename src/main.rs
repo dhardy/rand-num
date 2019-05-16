@@ -1,7 +1,7 @@
 extern crate rand;
 extern crate env_logger;
 
-use rand::*;
+use rand::prelude::*;
 
 fn main() {
     env_logger::init();

@@ -2,8 +2,8 @@
 name = "rand-num"
 version = "0.1.0"
 authors = ["Diggory Hardy <git@dhardy.name>"]
+edition = "2018"
 
 [dependencies]
-rand = { version = "0.5.0-pre.0", features=["log"] }
-env_logger = "0.5"
-
+rand = { version = "0.6.0", features=["log"] }
+env_logger = "0.6.1"
