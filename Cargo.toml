@@ -5,5 +5,4 @@ authors = ["Diggory Hardy <git@dhardy.name>"]
 edition = "2018"
 
 [dependencies]
-rand = { version = "0.6.0", features=["log"] }
-env_logger = "0.6.1"
+rand = { version = "0.7.0" }
