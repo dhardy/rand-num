@@ -4,5 +4,5 @@ version = "0.1.0"
 authors = ["Diggory Hardy <git@dhardy.name>"]
 edition = "2018"
 
-[dependencies]
-rand = { version = "0.8.0" }
+[dependencies.rand]
+version = "0.8.0"
